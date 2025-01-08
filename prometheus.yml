@@ -1,0 +1,4 @@
+scrape_configs:
+  - job_name: 'petclinic'
+    static_configs:
+      - targets: ['petclinic-jmx:8081']
